@@ -1,19 +1,3 @@
-# # -*- coding: utf-8 -*-
-# # @Time   : 2020/6/25
-# # @Author : Shanlei Mu
-# # @Email  : slmu@ruc.edu.cn
-
-# # UPDATE:
-# # @Time   : 2020/9/16
-# # @Author : Shanlei Mu
-# # @Email  : slmu@ruc.edu.cn
-
-# r"""
-# BPR
-# ################################################
-# Reference:
-#     Steffen Rendle et al. "BPR: Bayesian Personalized Ranking from Implicit Feedback." in UAI 2009.
-# """
 
 # import torch
 # import torch.nn as nn
@@ -188,22 +172,7 @@
 #         all_item_e = self.item_embedding.weight
 #         score = torch.matmul(user_e, all_item_e.transpose(0, 1))
 #         return score.view(-1)
-# -*- coding: utf-8 -*-
-# @Time   : 2020/6/25
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
 
-# UPDATE:
-# @Time   : 2020/9/16
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
-
-r"""
-BPR
-################################################
-Reference:
-    Steffen Rendle et al. "BPR: Bayesian Personalized Ranking from Implicit Feedback." in UAI 2009.
-"""
 
 import torch
 import torch.nn as nn
